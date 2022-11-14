@@ -1,0 +1,167 @@
+// media query
+$break-xs: "(max-width:575px)";
+$break-sm: "(min-width:576px) and (max-width:768px)";
+$break-md: "(min-width:768px) and (max-width:991px)";
+$break-lg: "(min-width:992px) and (max-width:1199px)";
+$break-xl: "(min-width:1200px) and (max-width:1399px)";
+$break-xxl: "(min-width:1400px)";
+
+$break-sm-open: "(min-width:576px)";
+$break-md-open: "(min-width:768px)";
+$break-lg-open: "(min-width:992px)";
+$break-xl-open: "(min-width:1200px)";
+
+$break-sm-close: "(max-width:768px)";
+$break-md-close: "(max-width:991px)";
+$break-lg-close: "(max-width:1199px)";
+$break-xl-close: "(max-width:1399px)";
+
+@media screen and #{$break-xl-close} {
+}
+
+// Color Palerte (Dark to Light)
+$primary-color1: #bbada1;
+$primary-color2: #d2c1b3;
+$primary-color3: #e7d7cb;
+$primary-color4: #f7ede2;
+
+// Font Colors
+$primary-font-color: #413215;
+$primary-font-color-2: #957c6a;
+$secondary-font-color: #c4b4a3;
+$white: #fff;
+
+// Font Family
+$primary-font: "Madefor Display", Helvetica Neue,Helvetica,Arial;
+$secondary-font: Lato;
+
+// Fonts
+@mixin head1 {
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 3.6px;
+}
+
+@mixin head1-secondary {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 3.6px;
+}
+
+@mixin text1 {
+  font-family: $primary-font;
+  font-size: 36px;
+  letter-spacing: 3.6px;
+}
+
+@mixin text1-secondary {
+  font-family: $secondary-font;
+  font-size: 36px;
+  letter-spacing: 3.6px;
+}
+
+@mixin head2 {
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 30px;
+  // letter-spacing: 3px;
+}
+
+@mixin head2-secondary {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 30px;
+  // letter-spacing: 3px;
+}
+
+@mixin text2 {
+  font-family: $primary-font;
+  font-size: 30px;
+  // letter-spacing: 3px;
+}
+
+@mixin text2-secondary {
+  font-family: $secondary-font;
+  font-size: 30px;
+  // letter-spacing: 3px;
+}
+
+@mixin head3 {
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 2.2px;
+}
+
+@mixin head3-secondary {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 2.2px;
+}
+
+@mixin text3 {
+  font-family: $primary-font;
+  font-size: 22px;
+  letter-spacing: 2.2px;
+}
+
+@mixin text3-secondary {
+  font-family: $secondary-font;
+  font-size: 22px;
+  letter-spacing: 2.2px;
+}
+
+@mixin head4 {
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 1.7px;
+}
+
+@mixin head4-secondary {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 1.7px;
+}
+
+@mixin text4 {
+  font-family: $primary-font;
+  font-size: 17px;
+  letter-spacing: 1.7px;
+}
+
+@mixin text4-secondary {
+  font-family: $secondary-font;
+  font-size: 17px;
+  letter-spacing: 1.7px;
+}
+
+@mixin head4 {
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+
+@mixin head4-secondary {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+
+@mixin text4 {
+  font-family: $primary-font;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+
+@mixin text4-secondary {
+  font-family: $secondary-font;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
